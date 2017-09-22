@@ -10,4 +10,6 @@ Text Domain: at-portfolio
 */
 
 
+	require_once plugin_dir_path(__FILE__) . 'post_types.php';
+
 ?>
