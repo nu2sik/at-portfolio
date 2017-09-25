@@ -59,6 +59,8 @@ function at_add_portfolio() {
         'publicly_queryable'    => true,
         'capability_type'       => 'post',
         'show_in_rest'          => false,
+        
+        'register_meta_box_cb'  => 'at_portfolio_metabox',
     );
 
     register_post_type( 'at_portfolio', $args );
