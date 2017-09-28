@@ -5,7 +5,7 @@
 
 */
 
-add_action('add_meta_boxes_page', 'at_portfolio_metabox');
+add_action('add_meta_boxes_at_portfolio', 'at_portfolio_metabox');
 
 function at_portfolio_metabox($post) {
     add_meta_box(
